@@ -719,6 +719,7 @@ Processing ProductsController#show (for 127.0.0.1 at 2009-06-03 15:20:07) [GET]
 Rendering template within layouts/products
 Rendering products/show
 Completed in 37ms (View: 9, DB: 2) | 200 OK [http://localhost/products/4]
+<<<<<<< HEAD:log/development.log
 
 
 Processing ApplicationController#index (for 127.0.0.1 at 2009-06-09 21:02:22) [GET]
@@ -751,3 +752,5 @@ ActionController::RoutingError (No route matches "/store" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
+=======
+>>>>>>> 490944ab4e0ccf26795604dd1becd669c2fcf496:log/development.log
