@@ -3,7 +3,7 @@
 
   <table>
   <% for product in @products %>
-    <tr class=<%= cycle( 'odd', 'even' ) %>">
+    <tr class=<%= cycle( 'list-line-odd', 'list-line-even' ) %>">
 
       <td>
         <%= image_tag product.image_url, :class => 'list-image' %>
@@ -23,7 +23,6 @@
                     :confirm => 'Are you sure?',
                     :method => :delete %>
      </td>
-	<% reset_cycle() %>
    </tr>
   <% end %>
   </table>
